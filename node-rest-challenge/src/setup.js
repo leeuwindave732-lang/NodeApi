@@ -1,5 +1,15 @@
 // setup.js -> Day 1
 
+/**
+ * term - meaning
+ * express() - Creates the server object (app).
+ * use() - Adds middleware that runs before routes.
+ * get() - Handles fetching/reading data from the server.
+ * res.json() - Sends JSON back to the client.
+ * listen() - Starts the server so it can receive requests.
+ */
+
+
 /** 
  * Import the Express library.
  * Express is a framework for building web servers in Node.js.

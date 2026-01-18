@@ -1,12 +1,21 @@
 // route-parameter.js
 
+/**
+ * term - meaning
+ * req.params - Data sent in the URL as route parameters (dynamic values in the path).
+ */
+
 const express = require("express");
 const app = express();
 const PORT = 3002;
 
 app.use(express.json());
 
-// In-memory users data
+/** 
+ * In-memory users data
+ * This is a simple array of user objects to simulate a database.
+ * Each user has an `id`, `name`, and `age`.
+ */
 const users = [
     { id:1, name: "seiju", age: 18},
     { id:2, name: "haji", age: 18},

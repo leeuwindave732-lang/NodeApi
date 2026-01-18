@@ -1,5 +1,12 @@
 // http-methods.js -> Day 2 
 
+/**
+ * term - meaning
+ * post() - Handles sending data to the server.
+ * req.query - Data sent in the URL as query parameters (like ?name=Alice&age=25).
+ * req.body - Data sent by the client in the request body (JSON).
+ */
+
 const express = require("express");
 const app = express();
 const PORT = 3001;
